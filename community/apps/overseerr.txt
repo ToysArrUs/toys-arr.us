@@ -1,6 +1,6 @@
 {
 	"name": "Overseerr",
-	"logo": "https://github.com/sct/overseerr/blob/develop/public/logo_full.svg",
+	"logo": "https://raw.githubusercontent.com/sct/overseerr/develop/public/os_logo_filled.png",
 	"devs": "sct",
 	"website": "https://overseerr.dev/",
 	"github": "https://github.com/sct/overseerr",
