@@ -1,5 +1,8 @@
 {
 	"name": "Notifiarr",
+	"port": 5454,
+	"ui": true,
+	"os": "Docker, Linux, Mac, Windows",
 	"logo": "https://notifiarr.com/images/logo/notifiarr.png",
 	"devs": "nitsua, Captain",
 	"website": "https://notifiarr.com",

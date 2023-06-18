@@ -1,5 +1,8 @@
 {
 	"name": "Unpackerr",
+	"port": 0,
+	"ui": false,
+	"os": "Docker, Linux, Mac, Windows",
 	"logo": "img/logo/unpackerr.png",
 	"devs": "Captain",
 	"website": "https://unpackerr.zip",

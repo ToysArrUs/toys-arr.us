@@ -1,5 +1,8 @@
 {
 	"name": "Toolbarr",
+	"port": 0,
+	"ui": true,
+	"os": "Linux, Mac, Windows",
 	"logo": "img/logo/toolbarr.png",
 	"devs": "Captain",
 	"website": "",

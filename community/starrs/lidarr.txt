@@ -1,5 +1,8 @@
 {
 	"name": "Lidarr",
+	"port": 8686,
+	"ui": true,
+	"os": "Docker, Linux, Mac, Windows",
 	"logo": "https://toys-arr.us/img/logo/lidarr.png",
 	"devs": "Qstick, ta264, Robin",
 	"website": "https://lidarr.audio/",

@@ -1,5 +1,8 @@
 {
 	"name": "Sonarr",
+	"port": 8989,
+	"ui": true,
+	"os": "Docker, Linux, Mac, Windows",
 	"logo": "https://toys-arr.us/img/logo/sonarr.png",
 	"devs": "markus101, taloth, Qstick",
 	"website": "https://sonarr.tv/",

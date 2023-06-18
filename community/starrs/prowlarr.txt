@@ -1,5 +1,8 @@
 {
 	"name": "Prowlarr",
+	"port": 9696,
+	"ui": true,
+	"os": "Docker, Linux, Mac, Windows",
 	"logo": "https://toys-arr.us/img/logo/prowlarr.png",
 	"devs": "Qstick, nitsua, Robin",
 	"website": "https://prowlarr.com/",

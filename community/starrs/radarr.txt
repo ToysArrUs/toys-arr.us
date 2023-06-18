@@ -1,5 +1,8 @@
 {
 	"name": "Radarr",
+	"port": 7878,
+	"ui": true,
+	"os": "Docker, Linux, Mac, Windows",
 	"logo": "https://toys-arr.us/img/logo/radarr.png",
 	"devs": "Qstick, ta264, nitsua, Robin",
 	"website": "https://radarr.video/",

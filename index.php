@@ -7,6 +7,14 @@
 ----------------------------------
 */
 
+set_error_handler(function(int $errno, string $errstr) {
+    if ((strpos($errstr, 'Undefined array key') === false) && (strpos($errstr, 'Undefined variable') === false)) {
+        return false;
+    } else {
+        return true;
+    }
+}, E_WARNING);
+
 $starrDirectory     = 'community/starrs/';
 $appsDirectory      = 'community/apps/';
 $scriptsDirectory   = 'community/scripts/';
@@ -90,7 +98,16 @@ function card($data)
                     <p class="card-text"><?= $data['description'] ?></p>
                 </div>
                 <div class="text-end me-2">
-                    <small class="text-muted">Devs: <?= $data['devs'] ?></small>
+                    <small class="text-muted">
+                        Devs: <?= $data['devs'] ?><br>
+                        UI: <?= ($data['ui'] ? 'Yes' : 'No') ?>
+                        <?php if ($data['port']) { ?>
+                            <br>Port used: <?= $data['port'] ?>
+                        <?php } ?>
+                        <?php if ($data['os']) { ?>
+                            <br>OS support: <?= $data['os'] ?>
+                        <?php } ?>
+                    </small>
                 </div>
             </div>
             <div class="card-footer bg-white text-muted text-center align-items-center">

@@ -1,5 +1,8 @@
 {
 	"name": "Readarr",
+	"port": 8787,
+	"ui": true,
+	"os": "Docker, Linux, Mac, Windows",
 	"logo": "https://toys-arr.us/img/logo/readarr.png",
 	"devs": "ta264, Qstick, nitsua, Robin",
 	"website": "https://readarr.com/",
